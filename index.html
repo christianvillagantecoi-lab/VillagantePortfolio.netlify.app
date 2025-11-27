@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/jpg" href="assets/img/IconProfileImage.jpg">
+        <title>Villagante Portfolio website</title>
+    </head>
+    <body>
+        <audio id="background-music" loop autoplay muted playsinline>
+            <source src="GenshinAudio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div id="music-notification" style="position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background-color: rgba(0,0,0,0.7); color: white; padding: 10px 20px; border-radius: 20px; z-index: 1001; font-size: 0.9rem; display: none;">
+            Click anywhere to enable background "Home Music"
+        </div>
+
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#home" class="logo-holder nav__logo">
+                        <div class="logo">V</div>
+                        <span>Villagante's Portfolio</span>
+                    </a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="Chat.html" class="nav__link">AI Chat</a></li> 
+                        <li class="nav__item"><a href="Resume.html" class="nav__link">Resume</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <section class="home" id="home">
+                <video autoplay loop muted playsinline class="home__video">
+                    <source src="assets/img/Genshin.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                 <div class="bd-grid">
+                 <div class="home__data">
+                  <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Christian</span></h1>
+                   <p class="home__title-typing"></p>
+
+                    <div>
+                        <a href="#contact" class="button">Contact</a>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="" class="home__social-icon"><i class='bx bxl-facebook'></i></a>
+                        <a href="" class="home__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                        <a href="" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    </div>
+                </div>
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 500 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/MyPictureCII.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img fade-up-hidden"> 
+                        <div class="image-glow-container">
+                            <img src="assets/img/ImageAbout.png" alt="Christian Villagante profile picture">
+                        </div>
+                    </div>                
+                    <div class="fade-up-hidden">
+                        <h2 class="about__subtitle">I'am Christian Villagante</h2>
+                        <p class="about__text">A dedicated 3rd-year student pursuing a degree at Philippine Christian University (PCU). I specialize in crafting clean, responsive, and user-friendly web interfaces, blending aesthetic design with functional code.
+                            My background is built on a strong foundation of academic rigor and a passion for creating digital solutions that truly engage users. I am constantly expanding my skills in modern front-end frameworks and full-stack concepts, eager to apply my learning to challenging projects..</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div class="fade-up-hidden">
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Currently in my 3rd year, focusing on Information Technology. Expertise: HTML5, CSS3, JavaScript, UI/UX Principles. 
+                            Goal: Seeking challenging projects to build professional experience before graduation..</p>
+                        <div class="skills__data ">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data ">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data ">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data ">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="fade-up-hidden">              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img ">
+                    </div>
+                </div>
+            </section>
+
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="#" class="work__img fade-up-hidden" data-title="Project Calculator" data-description="A web application for calculate online." data-github="https://github.com/example/project-alpha">
+                        <img src="assets/img/Online Calculator.PNG" alt="Work 1">
+                        <div class="work__title">Online Calculator</div>
+                    </a>
+                    <a href="#" class="work__img fade-up-hidden" data-title="Project Calendar" data-description="A web that have customize Calendar for your birthday." data-github="https://github.com/example/project-beta">
+                        <img src="assets/img/ResponsiveCalendar.PNG" alt="Work 2">
+                        <div class="work__title">Calendar Website</div>
+                    </a>
+                    <a href="#" class="work__img fade-up-hidden" data-title="Project Multiplication Table" data-description="A multiplication table that you can see in the table." data-github="https://github.com/example/project-gamma">
+                        <img src="assets/img/Multiplication Table.PNG" alt="Work 3">
+                        <div class="work__title">Multiplication Table</div>
+                    </a>
+                    <a href="#" class="work__img fade-up-hidden" data-title="Project Online Enrollment" data-description="A enrollment for students to fill the form online." data-github="https://github.com/example/project-delta">
+                        <img src="assets/img/Online Enrollment Form.PNG" alt="Work 4">
+                        <div class="work__title">Online Enrollment</div>
+                    </a>
+                    <a href="#" class="work__img fade-up-hidden" data-title="Project Color Picker" data-description="A data visualization dashboard for market trends." data-github="https://github.com/example/project-epsilon">
+                        <img src="assets/img/Colorpicker.PNG" alt="Work 5">
+                        <div class="work__title">Color Picker/Generator</div>
+                    </a>
+                    <a href="#" class="work__img fade-up-hidden" data-title="Project Quiz Application" data-description="A quiz for the user who wants learned basic Javascript language." data-github="https://github.com/example/project-zeta">
+                        <img src="assets/img/Quiz Application.PNG" alt="Work 6">
+                        <div class="work__title">Quiz Application</div>
+                    </a>
+                </div>
+            </section>
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid fade-up-hidden">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea type="text" placeholder="Message "name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Send" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__title">Villagante</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Villagante. All rigths reserved</p>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
+        <!--===== WORK MODAL =====-->
+        <div class="work__modal" id="work-modal">
+            <div class="work__modal-content">
+                <i class='bx bx-x work__modal-close' id="work-modal-close"></i>
+
+                <img src="" alt="" class="work__modal-img" id="work-modal-img">
+
+                <h3 class="work__modal-title" id="work-modal-title"></h3>
+                <p class="work__modal-description" id="work-modal-description"></p>
+                
+                <a href="#" class="button work__modal-button" id="work-modal-button" target="_blank">
+                    See in Github <i class='bx bx-right-arrow-alt button__icon'></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- The floating chat box -->
+        <div id="chat-widget" class="chat-box">
+            <p style="margin-bottom: 0.5rem; font-weight: var(--font-semi);">Have a question?</p>
+            <a href="Chat.html" class="button" style="padding: 0.5rem 1.5rem;">AI Chat</a>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const music = document.getElementById('background-music');
+                const notification = document.getElementById('music-notification');
+                if (music.muted) {
+                    notification.style.display = 'block';
+                }
+                document.addEventListener('click', function() {
+                    if (music.muted) {
+                        music.muted = false;
+                        music.play().then(() => {
+                            notification.style.display = 'none';
+                        }).catch(error => console.error("Audio playback failed:", error));
+                    }
+                }, { once: true });
+            });
+        </script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/jpg" href="assets/img/IconProfileImage.jpg">
+        <title>Villagante Portfolio website</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="resume-page">
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="index.html#home" class="logo-holder nav__logo">
+                        <div class="logo">V</div>
+                        <span>Villagante's Portfolio</span>
+                    </a>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="index.html#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="index.html#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="index.html#work" class="nav__link">Work</a></li> 
+                        <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="Chat.html" class="nav__link">AI Chat</a></li>
+                        <li class="nav__item"><a href="Resume.html" class="nav__link active-link">Resume</a></li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+            <section class="section pt-32 pb-20 text-center" style="padding-top: 8rem; position: relative;">
+                <!-- Background Image -->
+                <img src="assets/img/Genshin3.png" 
+                     alt="Abstract background image" 
+                     aria-hidden="true" 
+                     style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
+                <h2 class="section-title">Online Resume</h2>
+                <div class="bd-grid" style="position: relative; z-index: 1;">
+                    <div class="flex flex-col items-center justify-center w-full">
+                    <div class="flex flex-col items-center justify-center w-full fade-up-hidden">
+                        <p class="mb-8 text-center max-w-xl text-white">
+                            A detailed overview of my academic background, technical skills, and key projects as a Web Designer and Developer.
+                        </p>         
+                        <div class="resume-card bg-white mx-auto flex flex-col md:flex-row rounded-xl overflow-hidden w-full max-w-4xl shadow-xl">             
+                            <div class="sidebar text-white p-6 md:p-8 md:w-1/3 flex flex-col items-center">
+                                <img src="assets/img/IconResume.png" alt="Profile Picture" class="profile-image mb-6" onerror="this.onerror=null; 
+                                this.src='https://placehold.co/120x120/4e6e8e/white?text=CV'">                               
+                                <div class="w-full mb-8">
+                                    <h3 class="text-xl font-semibold uppercase tracking-wider border-b border-white pb-1 mb-4">Contact</h3>
+                                    <div class="space-y-2 text-sm">
+                                        <p>
+                                            <strong>Phone</strong><br>
+                                            <a href="tel:(+63)9XX-XXX-XXXX" class="text-white hover:underline">(+63) 9XX-XXX-XXXX</a>
+                                        </p>
+                                        <p>
+                                            <strong>Email</strong><br>
+                                            <a href="mailto:your.email@pcu.edu.ph" class="text-white hover:underline">your.email@pcu.edu.ph</a>
+                                        </p>
+                                        <p><strong>Address</strong><br>Metro Manila, Philippines</p>
+                                    </div>
+                                </div>
+                                <div class="w-full mb-8">
+                                    <h3 class="text-xl font-semibold uppercase tracking-wider border-b border-white pb-1 mb-4">Education</h3>
+                                    <div class="space-y-4 text-sm">
+                                        <div>
+                                            <p class="font-bold">2022 - Present (3rd Year)</p> 
+                                            <p class="font-medium">Bachelor of Science in Information Technology (BSIT)</p>
+                                            <p class="text-gray-300">Philippine Christian University (PCU)</p>
+                                        </div>
+                                        </div>
+                                </div>
+                                <div class="w-full mb-8">
+                                    <h3 class="text-xl font-semibold uppercase tracking-wider border-b border-white pb-1 mb-4">Expertise</h3>
+                                    <ul class="list-disc list-inside space-y-1 text-sm pl-4">
+                                        <li>HTML5 / CSS3 (Tailwind CSS)</li>
+                                        <li>JavaScript (ES6+)</li>
+                                        <li>Responsive Web Design</li>
+                                        <li>UI/UX Prototyping (Figma)</li>
+                                        <li>Git & Version Control</li>
+                                        <li>Database Fundamentals (SQL)</li>
+                                    </ul>
+                                </div>
+                                <div class="w-full">
+                                    <h3 class="text-xl font-semibold uppercase tracking-wider border-b border-white pb-1 mb-4">Language</h3>
+                                    <p class="text-sm">English</p>
+                                    <p class="text-sm">Filipino (Tagalog)</p>
+                                </div>
+                            </div>
+                            <div class="p-6 md:p-10 md:w-2/3">
+                                <header class="mb-8">
+                                    <h1 class="text-4xl font-extrabold text-gray-800 tracking-tight">Christian A. Villagante</h1>
+                                    <h2 class="text-2xl font-light text-gray-600 mb-4">Student & Web Designer</h2>
+                                    <p class="text-sm text-gray-700">A proactive 3rd-year BSIT student with a strong focus on front-end development, specializing in creating functional, modern, and accessible web experiences. Eager to contribute technical skills and innovative solutions to real-world projects.</p>
+                                </header>
+                                <section class="mb-10">
+                                    <h3 class="text-2xl font-bold uppercase text-gray-800">Key Projects</h3>
+                                    <div class="section-divider mb-6"></div>
+                                    <div class="timeline-item">
+                                        <p class="text-sm font-semibold text-gray-700 mb-1">Ongoing</p>
+                                        <p class="text-lg font-bold">Personal Portfolio Website</p>
+                                        <p class="text-sm italic text-gray-600 mb-2">Self-Initiated Development</p>
+                                        <p class="text-sm text-gray-700">Designed and developed a fully responsive, single-page professional portfolio using pure HTML, CSS (Tailwind), and JavaScript. The project demonstrates proficiency in modern layout techniques, mobile-first design, and core front-end implementation.</p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="text-sm font-semibold text-gray-700 mb-1">2024 (Academic)</p>
+                                        <p class="text-lg font-bold">PCU Coursework Management System Prototype</p>
+                                        <p class="text-sm italic text-gray-600 mb-2">Philippine Christian University Project</p>
+                                        <p class="text-sm text-gray-700">Contributed to the front-end design and database integration blueprint for a class project, simulating a robust system for managing student grades and academic records. Utilized SQL for data modeling and structured programming concepts.</p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="text-sm font-semibold text-gray-700 mb-1">2023</p>
+                                        <p class="text-lg font-bold">Simple To-Do List Application</p>
+                                        <p class="text-sm italic text-gray-600 mb-2">Personal Development Exercise</p>
+                                        <p class="text-sm text-gray-700">Developed a dynamic web application using vanilla JavaScript to manage tasks, featuring local data storage, drag-and-drop functionality, and modular code architecture to reinforce core programming principles.</p>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h3 class="text-2xl font-bold uppercase text-gray-800">Reference</h3>
+                                    <div class="section-divider mb-6"></div>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm">
+                                        <div>
+                                            <p class="font-bold">Prof. [Name of Professor 1]</p>
+                                            <p class="italic text-gray-600 mb-2">BSIT Program Coordinator / PCU</p>
+                                            <p>Phone: Available upon request</p>
+                                            <p>Email: <a href="mailto:professor1@pcu.edu.ph" class="text-blue-600 hover:underline">professor1@pcu.edu.ph</a></p>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">Prof. [Name of Professor 2]</p>
+                                            <p class="italic text-gray-600 mb-2">IT Systems Instructor / PCU</p>
+                                            <p>Phone: Available upon request</p>
+                                            <p>Email: <a href="mailto:professor2@pcu.edu.ph" class="text-blue-600 hover:underline">professor2@pcu.edu.ph</a></p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="mt-12 mb-12 text-center w-full">
+                            <a href="ResumeCII.pdf" download="Christian-Villagante-CV.pdf" class="button">
+                                Download CV <i class='bx bxs-download'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__title">Villagante</p>
+            <div class="footer__social">
+                <a href="#facebook-link" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#instagram-link" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#twitter-link" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Villagante. All rigths reserved</p>
+        </footer>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

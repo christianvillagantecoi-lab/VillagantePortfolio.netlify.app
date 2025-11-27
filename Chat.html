@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/jpg" href="assets/img/IconProfileImage.jpg">
+        <title>Villagante Portfolio website</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="index.html#home" class="logo-holder nav__logo">
+                        <div class="logo">V</div>
+                        <span>Villagante's Portfolio</span>
+                    </a>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="index.html#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="index.html#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="index.html#work" class="nav__link">Work</a></li> 
+                        <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="Chat.html" class="nav__link active-link">AI Chat</a></li>
+                        <li class="nav__item"><a href="Resume.html" class="nav__link">Resume</a></li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+            <section class="section chat-section pt-32 pb-20" id="chat-section" style="padding-top: 8rem;">
+                <!-- Background Image -->
+                <img src="assets/img/Genshin1.jpg" 
+                     alt="Abstract background image" 
+                     aria-hidden="true" 
+                     style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
+                <!-- Content -->
+                <h2 class="section-title">Ask Me Anything!</h2>
+                <div class="bd-grid" style="position: relative; z-index: 2;">
+                    <div class="chat-container">
+                        <div class="chat-header">
+                            AI Assistant
+                        </div>
+                        <div class="chat-messages" id="chat-messages">
+                            <!-- Initial AI message -->
+                            <div class="message-bubble message-ai">
+                                Hello! I'm your personal AI assistant. I can tell you more about Christian Villagante. What would you like to know?
+                            </div>
+                        </div>
+                        <div class="chat-input-area">
+                            <input type="text" id="chat-input" class="chat-input" placeholder="Type your question here...">
+                            <button id="chat-send-button" class="chat-send-button">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__title">Villagante</p>
+            <div class="footer__social">
+                <a href="#facebook-link" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#instagram-link" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#twitter-link" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Villagante. All rights reserved</p>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
